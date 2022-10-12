@@ -2,7 +2,7 @@ import requests
 import time
 import pandas as pd
 import sqlalchemy as sq
-""
+
 
 urls = [ 
 "https://api.github.com/search/repositories?q=stars:%3E=1000+language:javascript&sort=stars&order=desc"
